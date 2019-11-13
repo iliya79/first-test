@@ -8,12 +8,12 @@ int main(){
 	for(n;n>1;n--){
 		for(i;i>1;i--){
 			if(n%i==0){
-				i=n-1;
+				i=n-2;
 				break;
 			}
 		}
 		if(i==1){
-			i=n-1;	
+			i=n-2;	
 			z++;
 		}
 		if(z==5){
